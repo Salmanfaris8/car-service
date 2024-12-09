@@ -1,0 +1,99 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+.main{
+min-height: 100vh;
+background-image: url(https://static.vecteezy.com/system/resources/previews/003/681/813/large_2x/abstract-blur-garage-car-service-for-background-free-photo.jpg);
+background-size: cover;
+}
+.about-us-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about-us-section .lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.about-us-section img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.book{
+  width: 100%;
+  height: 700px;
+  background-image: url(https://www.motorera.com/wp-content/uploads/2017/10/best-car-repair.jpg);
+  color: white;
+}
+.login{
+  height: 500px;
+}
+.home-content{
+  height: 90vh;
+}
+.view-card{
+  width: 75%;
+}
+.booking-card{
+  width: 75%;
+}
+.profile-view{
+  height: 550px;
+  width: 75%;
+}
+.profile-input{
+  width: 75%;
+}
+.profile-img{
+  width: 300px;
+  height: 300px;
+}
+.dashboard-profile{
+  width: 55px;
+}
+@media (max-width:992px) {
+  .main{
+    min-height: 80vh;
+  }
+  .home-content{
+    height: 60vh;
+  }
+}
+@media (max-width:770px) {
+  .login{
+    height: 400px;
+  }
+}
+@media (max-width:450px) {
+  .view-card{
+    width: 100%;
+  }
+  .booking-card{
+    width: 100%;
+  }
+  .book{
+    background-image: url(https://i.pinimg.com/736x/cd/df/11/cddf1136400b050da4cf57f4155c27dd.jpg);
+    background-size: cover;
+    height: 300px;
+  }
+  .profile-view{
+    width: 100%;
+  }
+  .profile-input{
+    width: 100%;
+  }
+  .profile-img{
+    width: 200px;
+    height: 200px;
+  }
+  .dashboard-profile{
+    width: 35px;
+  }
+  .login{
+    height: 370px;
+  }
+}
