@@ -76,9 +76,9 @@ const Profile = () => {
                         <input onChange={e=>setUserDetails({...userDetails,profilePic:e.target.files[0]})} type="file" className='d-none' />
                           {
                             existingProfileImg == ""?
-                            <img className='profile-img rounded-circle mb-3 img-fluid' src={preview?preview:profileImg} alt="" />
+                            <img className='profile-img rounded-circle mb-3' src={preview?preview:profileImg} alt="" />
                             :
-                            <img className='profile-img rounded-circle mb-3 img-fluid' src={preview?preview:`${SERVER_URL}/uploads/${existingProfileImg}`} alt="" />
+                            <img className='profile-img rounded-circle mb-3' src={preview?preview:`${SERVER_URL}/uploads/${existingProfileImg}`} alt="" />
                           }
                       </label>
                       <div className='w-100'>

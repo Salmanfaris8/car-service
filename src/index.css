@@ -89,9 +89,12 @@ background-size: cover;
   .profile-img{
     width: 200px;
     height: 200px;
+    object-fit: cover;
   }
   .dashboard-profile{
     width: 35px;
+    height: 35px;
+    object-fit: cover;
   }
   .login{
     height: 370px;
